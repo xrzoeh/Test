@@ -1,10 +1,21 @@
+
 /**
 Clase de test para saber usar git 
-@author Jaime Ruiz Breña
-**\
+@author Jaime, roswer
+**/
+public class Data {
+private String nombre;
 
-public class Data{
-	Public data(String nombre){
+  Public data(String nombre){
 	this.nombre=nombre
 	}
+  public String getNombre(){
+    return nombre;
+  }
+  public void setNombre(String nombre){
+  this.nombre=nombre;
+  }
+
 }
+
+
