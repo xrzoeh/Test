@@ -5,8 +5,8 @@ Clase de test para saber usar git
 **/
 public class Data {
 private String nombre;
-
-  Public data(String nombre){
+private int numero;
+  Public data(String nombre, int nombre){
 	this.nombre=nombre
 	}
   public String getNombre(){
